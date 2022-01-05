@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #293331;
+    font-family: 'Press Start 2P';
+}
+
+.apresentacao {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.apresentacao .apresentacao-foto {
+    width: 30vw;
+    margin: 40px;
+}
+
+#bemvindo {
+    font-family: 'Press Start 2P';
+    color: white;
+}
+
+.tabela {
+    color: #97BBB2;
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    grid-template-rows: repeat(3, 40px);
+    grid-template-areas: 
+    "n n-n seta"
+    "i i-i seta"
+    "p p-p seta";
+}
+
+.tabela .mark-n { grid-area: n; }
+.tabela .n-nome { grid-area: n-n; }
+.tabela .mark-i { grid-area: i; }
+.tabela .i-idade { grid-area: i-i; }
+.tabela .mark-p { grid-area: p; }
+.tabela .p-profissao { grid-area: p-p; }
+.tabela .seta {
+    grid-area: seta;
+    align-self: center;
+    font-size: 60pt;
+    color: white;
+}
+
+.rodape {
+    height: 6vh;
+    background: #293331;;
+    font-family: monospace;
+    text-align: center;
+    padding: 8px
+}
+
+.rodape a {
+    color: black;
+    font-style: italic;
+}
