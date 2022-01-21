@@ -6,16 +6,26 @@ html, body {
   box-sizing: border-box;
   background: #293331;
   font-family: "Press Start 2P";
-<<<<<<< HEAD
   width: 100vw;
-=======
-  width: 100vh;
->>>>>>> 27d8106c9c9e8735b13538ea3e7e0bd8525769dd
 }
 
 a {
   color: #97BBB2;
   text-decoration: none;
+}
+
+.rodape {
+  height: 6vh;
+  background: #293331;
+  font-family: monospace;
+  text-align: center;
+  padding: 8px;
+  color: #97BBB2;
+}
+
+.rodape .link {
+  color: #8ecfbf;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */
